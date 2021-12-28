@@ -1,0 +1,99 @@
+.main {
+  max-height: 80vh;
+  margin: 50px 0;
+}
+
+.main__content {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1a1c1e;
+  flex-direction: column;
+}
+
+.punk__highlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.punk__container {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+
+  img {
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    min-height: 30vh;
+  }
+}
+
+.punk__details {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.item__number {
+  color: #a1a5b0;
+  font-size: 72px;
+  align-self: center;
+}
+
+.owner {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+
+  div {
+    margin: 0 5px;
+  }
+}
+
+.ownerImage__container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  object-fit: contain;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.owner__details {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.ownerName__handles {
+  flex: 1;
+}
+
+.owner__handle {
+  color: #00ebfe;
+}
+
+.owner__link {
+  padding: 12px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #fff;
+  margin: 0 0 0 10px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

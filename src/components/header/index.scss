@@ -1,0 +1,78 @@
+$bgColor: #1c1c1e;
+
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+  div {
+    margin: 10px;
+  }
+}
+
+.punk__logo {
+  width: 200px;
+}
+
+.search__container {
+  background-color: $bgColor;
+  height: 50px;
+  flex: 1;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.searchIcon__container {
+  margin: 10px;
+}
+
+.search__input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #eee;
+  font-size: 16px;
+}
+
+.header__items {
+  display: flex;
+  color: #a1a5b0;
+
+  p {
+    margin: 10px;
+  }
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+
+  div {
+    margin: 10px;
+  }
+}
+
+.themeSwitch__container {
+  display: flex;
+  background-color: $bgColor;
+  border-radius: 50px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+
+  img {
+    height: 25px;
+  }
+}
+
+.login__button {
+  background: linear-gradient(to right, #59f9b7, #66feea);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #000;
+}
